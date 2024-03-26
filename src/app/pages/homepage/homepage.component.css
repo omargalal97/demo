@@ -1,0 +1,452 @@
+.mySection {
+    background-image: url(/assets/images/Vector-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+    
+}
+
+img {
+    width: 72%;
+}
+
+.main-header {
+    left: 10%;
+    top: -30px;
+    margin-top: 79px;
+}
+
+.round-img {
+    margin-bottom: 50px;
+}
+
+.expert-button {
+        background-color: var(--main-bg);
+        border-radius: 20px;
+        font-weight: 500;
+        line-height: 36px;
+        font-size: 24px;
+        color: #fff;
+        width: 167px;
+        padding: 7px 40px;
+}
+
+.main-header h1 {
+    font-size: 96px;
+    font-weight: 250;
+    line-height: 89.5px;
+    margin-bottom: 20px;
+}
+
+.main-header h1 span {
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 89.5px;
+}
+
+.main-header p {
+    font-size: 18px;
+    font-family: 600;
+}
+
+
+
+.layer h2{
+    font-weight: 900;
+    size: 64px;
+    line-height: 89.5px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.secondryHeader p{
+    font-weight: 700;
+    color: white;
+    size: 18px;
+    line-height: 24px;
+    
+}
+
+
+
+.secondSection h3{
+    color: white;
+    font-weight: 900;
+    size: 64px;
+    
+
+
+}
+
+.secondSection p{
+    color: white;
+    font-weight: 600;
+    size: 18px;
+    line-height: 24px;
+
+    
+}
+
+.where{
+    background: url(/assets/images/Rectangle-262.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.card{
+    border-radius: 30px 30px 0px 0px;
+}
+
+.partOne{
+    border-radius: 30px;
+    border:1px solid var(--main-bg);
+    ;
+    padding: 10px;
+    
+}
+
+.partOne h4{
+    color: var(--main-bg);
+    size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.partOne h4{
+    size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.partOne span{
+    color: var(--main-bg);
+    
+}
+
+.partTwo{
+    background-color: blue;
+}
+
+.services{
+    color: var(--main-bg);
+    font-weight: 900;
+    size: 64px;
+}
+
+
+.diffrentBtn{
+    border-radius: 71px;
+    padding: 15px 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.card-body h5{
+    font-weight: 900;
+    size: 16px;
+    line-height: 24px;
+}
+
+.card-body p{
+    font-weight: 400;
+    size: 14px;
+    line-height: 20px;
+}
+
+.sendBtn{
+    width: 168px;
+    height: 56px;
+    border-radius: 20px;
+    border: 1px solid var(--main-bg);
+    margin-left: 20%;
+
+}
+
+.myForms input{
+    border-radius: 60px;
+    background-color: #CEDCFF;
+}
+
+.myIcons{
+    color: var(--main-bg);
+}
+
+
+
+.diagonal-line {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .diagonal-line::before,
+  .diagonal-line::after {
+    content: '';
+    position: absolute;
+    border: 1px solid black; /* Adjust thickness and color as needed */
+    transform-origin: 0 100%; /* Set the origin of the rotation */
+  }
+  
+  .diagonal-line::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotate(-45deg);
+  }
+  
+  .diagonal-line::after {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /* height: 100%; */
+    transform: rotate(45deg);
+  }
+
+  .footer{
+    background-color: #0C1E49;
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+  }
+
+  .adjustImge{
+    width: 100%;
+  }
+
+  .line{
+    background-color: red;
+    width: 50px;
+    height:1px;
+    margin-top: 20px;
+    transform: rotate(-45deg)
+  }
+
+  .line1{
+    background-color: red;
+    width: 50px;
+    height:1px;
+    margin-top: 20px;
+    transform: rotate(45deg)
+  }
+
+   .myNotch {
+    width: 200px;
+    height: 100px;
+    position: relative;
+display: flex;
+  justify-content: center;
+  align-items: center;
+    overflow: hidden;
+  }
+
+  .notch {
+    width: 40px; 
+    height: 40px; 
+    background-color: blue;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  
+
+  .top-left {
+    top: -20px; 
+    left: -20px; 
+        background-color: white;
+        border: 1px solid var(--main-bg);
+
+    
+  }
+
+  .top-right {
+    top: -20px; 
+    right: -20px; 
+         background-color: white;
+         border: 1px solid var(--main-bg);
+
+  }
+
+  .bottom-left {
+    bottom: -20px; 
+    left: -20px; 
+         background-color: white;
+                border: 1px solid var(--main-bg);
+
+  }
+
+  .bottom-right {
+    bottom: -20px; 
+    right: -20px; 
+         background-color: white;
+                border: 1px solid var(--main-bg);
+
+  }
+
+.omar{
+    position: relative;
+}
+
+.myNotch{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+
+
+}
+
+.unique{
+    margin-top: 135px;
+}
+
+.testy{
+    margin-top: 140px;
+}
+
+.myNotch1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+
+}
+
+.toAdjust{
+    margin-bottom: 50px;
+}
+
+.finish{
+    margin-top: 140px;
+}
+
+.toFinish{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 715px) {
+    /* Your CSS styles for smaller screens go here */
+
+    
+
+    .mySection {
+        background-image: url(/assets/images/Vector-7.png);
+        background-repeat: no-repeat;
+         background-size: cover;
+    background-position: left;
+    
+        
+    }
+    .main-header h1{
+        font-size: 50px;
+    }
+
+    .main-header h1 span{
+        font-size: 30px;
+    }
+
+    .main-button{
+        padding:3px 30px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .expert-button{
+        font-size: 15px;
+        padding: 3px 30px;
+    }
+
+    .diffrentBtn{
+        font-size: 15px;
+        padding: 3px 30px;
+
+    }
+
+    .adjustImge{
+        width: 25%;
+      }
+
+    .partOne{
+        margin-bottom: 20px;
+    }
+
+    .main-header p{
+        font-size: 14px;
+
+    }
+
+    .layer h2{
+        font-size: 20px;
+
+
+    }
+
+    .secondryHeader p{
+        font-size: 12px;
+    }
+
+    .secondSection h3{
+        font-size: 20px;
+
+    }
+
+    .secondSection p{
+        font-size: 12px;
+
+    }
+
+   
+
+    
+    
+
+  }
+
+  @media (max-width: 995px){
+    .mypes{
+        font-size: 13px;
+    }
+
+    .adjustImge{
+        width: 80%;
+      }
+
+      .partOne{
+        margin-bottom: 20px;
+    }
+
+    .main-header h1{
+        font-size: 70px;
+    }
+
+    .main-header h1 span{
+        font-size: 30px;
+    }
+  }
+  
+  .img{
+    z-index: 111;
+    background: url("/assets/images/Vector-8.png");
+    background-repeat: no-repeat;
+    background-size: 152%; 
+  }
+
